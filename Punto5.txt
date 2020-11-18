@@ -1,0 +1,77 @@
+Escriba el pseudo código del problema que se le asigno según su grupo
+
+El problema asignado pertenenciente al grupo 4. Verificar numeros romanos
+
+
+Los números romanos I, X, C y M pueden repetirse hasta tres veces a la hora de escribir un número romano compuesto.
+Los números romanos V, L y D no pueden repetirse nunca.
+Si un número romano compuesto tiene un número a la derecha menor que el de la izquierda entonces se suman ambos.
+
+I => 1
+V => 5
+X => 10
+L => 50
+C => 100
+D => 500
+M => 1000
+
+
+Array[char] = [ "I","V","X","L","C","D","M"]
+
+Contador_I = 0,Contador_V = 0,Contador_X = 0,Contador_L = 0,Contador_C = 0,Contador_D = 0,Contador_M = 0
+
+numbers = readline()
+
+forech(char letras in numbers)
+{
+	if(letras == "I")
+	{
+		Contador_I = Contador_I + 1
+	}
+	else if(letras == "V")
+	{
+		Contador_V == Contador_V + 1
+	}
+	else if(letras == "X")
+	{
+		Contador_X == Contador_X + 1
+	}
+	else if(letras == "L")
+	{
+		Contador_L == Contador_L + 1
+	}
+	else if(letras == "C")
+	{
+		Contador_C == Contador_C + 1
+	}
+	else if(letras == "D")
+	{
+		Contador_D == Contador_D + 1
+	}
+	else if(letras == "M")
+	{
+		Contador_M = Contador_M + 1
+	}
+	
+
+Los números romanos I, X, C y M pueden repetirse hasta tres veces a la hora de escribir un número romano compuesto.
+
+Los números romanos V, L y D no pueden repetirse nunca.
+
+Si un número romano compuesto tiene un número a la derecha menor que el de la izquierda entonces se suman ambos.
+
+}
+
+if(Contador_I > 3 || Contador_X > 3 || Contador_C > 3 || Contador_M > 3 || Contador_V > 1 || Contador_L > 1 || Contador_D > 1)
+{
+  console.writeline("Lo Numeros Romanos {0} No existen",numbers)
+}
+else
+{
+	console.writeline("Lo Numeros Romanos {0} son validos",numbers)
+}
+
+
+
+
+

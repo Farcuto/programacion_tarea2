@@ -1,0 +1,57 @@
+Escriba un algoritmo para agendar una cita, reunión o compromiso en su agenda
+
+Cita medica
+
+1. Solicitar cita
+
+2. Elegir la via para solicitar la cita: 
+
+A) Personal B) Telefono C) Internet
+
+
+A) Personal: 
+
+1. vistar el lugar
+
+2. solitar la cita 
+
+3. Cedula,Con seguro o sin seguro medico?// En caso de ser menor la cedula del representante 
+
+Si o no
+
+4. Verificar los documentos de indentidad
+
+
+B) Telefono:
+
+1. Buscar el numero telefonico
+
+2. marcar el numero
+
+3 esperar que respondan
+
+4. En caso de no responder volver a llamar
+
+5. Si respondieron, Debemos solicitar la cita
+
+6. Verificar los documento de identidad 
+
+C) Internet:
+
+1. Abrir el navegador 
+
+2. Acceder a la pagina web correspondiente
+
+3. Solicitar cita
+
+4. Verificar documento de identidad 
+
+General:
+
+3. Definir la fecha de la cita
+
+4. Verificar disponibilidad
+
+5. Confirmar cita
+
+6. Asistir a la cita en el dia y hora correspondiente  

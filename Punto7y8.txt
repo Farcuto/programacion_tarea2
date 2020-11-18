@@ -1,0 +1,22 @@
+
+Cree una prueba de escritorio para el pseudo código del problema de su grupo
+
+1. introducir los datos
+
+2. validar los datos, estos datos no deben repetirse mas de tres veces, otros solo pueden estar una sola vez 
+
+3. determinar si los datos Que se introdujeron por teclado sean numeros romanos 
+
+4. mostrar el resultado.
+
+Casos:
+
+caso 1. XV = 15, contador X = 1 y contaodor V = 1, entonces no inflinje la regla
+
+caso 2. IIII, el uso consecutivo de 'I' es validos siempre y cuando I < 3
+
+caso 3. VVV, el uso consecutivo de 'V' es invalido siempre que este sea igual o mayor a 2
+
+caso 4, MM, el contador M = 2, por lo tanto no inflinge la regla
+
+caso 5 LLLL, El caracter L no puede repetirse
